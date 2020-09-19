@@ -17,6 +17,6 @@ Route::get('/', function () {
     return view('welcome');
 });
 
-// Route::get('/hello', function() {
-//     return 'hello';
-// });
+Route::get('/hello', function() {
+    return view('subviews.hello');
+});
